@@ -25,4 +25,4 @@ function estoca_check(M)
 end
 
 
-@test estoca_check(rand(3,3))
+@test estoca_check(estocas(3,3))
