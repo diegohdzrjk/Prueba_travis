@@ -1,4 +1,6 @@
-function estocka(n, m)
+using Base.Test
+
+function estocas(n, m)
     M = zeros(Float64, n, m) 
     for i in 1:n
         v = rand(m)
@@ -9,7 +11,7 @@ function estocka(n, m)
 end
 
 
-function estocka_check(M)
+function estoca_check(M)
     n = size(M)[1]
     m = size(M)[2]
     
@@ -22,3 +24,5 @@ function estocka_check(M)
     return true
 end
 
+
+@test estoca_check(estocas(3,3))
