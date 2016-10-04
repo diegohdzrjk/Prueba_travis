@@ -1,4 +1,4 @@
 language: julia
 julia:
  - 0.4.6
-script: cd Tarea5/ julia estocas.jl
+script: cd Tarea5/ julia T05_diegohdzrjk.jl
