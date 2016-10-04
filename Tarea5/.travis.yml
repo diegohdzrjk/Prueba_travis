@@ -1,4 +1,0 @@
-language: julia
-julia:
- - 0.4.6
-script: julia T05_diegohdzrjk.jl
